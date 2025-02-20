@@ -415,9 +415,9 @@
   
     /* Hero Section */
     .hero-content {
-      margin-top: 30px;
       flex-direction: column;
       text-align: center;
+      padding-top: 50px;
     }
   
     .hero-left {
