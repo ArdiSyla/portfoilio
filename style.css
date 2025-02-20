@@ -411,18 +411,16 @@
       flex-direction: row;
       gap: 10px;
       align-items: flex-start;
+      z-index: 101;
     }
   
     /* Hero Section */
     .hero-content {
       flex-direction: column;
       text-align: center;
+      margin-top: 30px;
     }
-    .hero-image {
-      margin-top: 50px;
-      max-height: 300px;
-    }
-  
+    
     .hero-left {
       margin-bottom: 30px;
     }
@@ -462,6 +460,10 @@
     .about-image-container {
       max-width: 300px;
       margin-bottom: 30px;
+    }
+
+    .about-image {
+      filter: grayscale(0%);
     }
   
     .about-content {
