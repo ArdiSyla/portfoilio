@@ -419,7 +419,8 @@
       text-align: center;
     }
     .hero-image {
-      margin-top: 80px;
+      margin-top: 50px;
+      max-height: 300px;
     }
   
     .hero-left {
